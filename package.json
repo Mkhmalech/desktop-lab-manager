@@ -1,0 +1,31 @@
+{
+  "name": "desktop-lab-manager",
+  "version": "1.0.0",
+  "description": "desktop application to manage laboratory",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mkhmalech/desktop-lab-manager.git"
+  },
+  "keywords": [
+    "lab",
+    "manager"
+  ],
+  "author": "khm@med",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mkhmalech/desktop-lab-manager/issues"
+  },
+  "homepage": "https://github.com/Mkhmalech/desktop-lab-manager#readme",
+  "dependencies": {
+    "electron": "^8.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {}
+}
