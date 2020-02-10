@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <style>
+
+            body {
+                background-color: #3f4352;
+            }
+
+            #header {
+                width: 100%;
+                height: 50px;
+                background-color: black;
+                position: absolute;
+                top: 0;
+                left: 0;
+                color: white;
+                padding-top: 15px;
+            }
+
+            h1{
+                width: 98%;
+                min-height: 100px;
+                position: absolute;
+                top: 150px;
+                text-align: center;
+                color: whitesmoke;
+            }
+
+            #list {
+                display: flex;
+                margin-top: 300px;
+                text-align: center;
+                width: 98%;
+                color: green;
+            }
+
+            .flexChild{
+                flex-basis: 200px;
+                min-height: 50px;
+                color : green;
+                font-weight: 900;
+                font-size: medium;
+            }
+        </style>
+        <title>CHULabManager</title>
+    </head>
+    
+    <body>
+        <div id="header">menu</div>
+        <h1>CHU Laboratoire Manager v1.0.0</h1>
+        <div id="list">
+            <div id="PM" class="flexChild">Personnelles manager</div>
+            <div id="MM" class="flexChild">Material manager</div>
+            <div id="GM" class="flexChild">Garde manager</div>
+            <div id="CM" class="flexChild">Compte manager</div>
+        </div>
+    </body>
+</html>

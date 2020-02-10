@@ -2,10 +2,11 @@
   "name": "desktop-lab-manager",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "src/main.ts",
   "dependencies": {},
   "devDependencies": {
-    "electron": "^8.0.0"
+    "electron": "^8.0.0",
+    "typescript": "^3.7.5"
   },
   "scripts": {
     "start": "electron .",

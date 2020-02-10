@@ -9,7 +9,9 @@ let mainWindow;
 
 app.on('ready', function(){
 
-    mainWindow = new BrowserWindow({});
+    mainWindow = new BrowserWindow({
+        frame : true
+    });
 
     mainWindow.loadURL(url.format({
         pathname : path.join(__dirname, 'mainWindow.html'),
